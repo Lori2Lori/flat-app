@@ -4,7 +4,8 @@
   "description": "App for renting a room",
   "main": "build/index.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "prepublish": "gulp"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,19 @@
   "bugs": {
     "url": "https://github.com/Lori2Lori/flat-app/issues"
   },
-  "homepage": "https://github.com/Lori2Lori/flat-app"
+  "homepage": "https://github.com/Lori2Lori/flat-app",
+  "devDependencies": {
+    "browserify": "^11.1.0",
+    "coffee-reactify": "^4.0.0",
+    "coffee-script": "^1.10.0",
+    "del": "^2.0.2",
+    "gulp": "git://github.com/gulpjs/gulp.git#4.0",
+    "gulp-cli": "git://github.com/gulpjs/gulp-cli.git#4.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-stylus": "^2.0.7",
+    "gulp-webserver": "^0.9.1",
+    "through2": "^2.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.4.0"
+  }
 }
