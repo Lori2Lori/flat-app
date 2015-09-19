@@ -1,0 +1,19 @@
+{
+  "name": "flat-app",
+  "version": "0.0.0",
+  "description": "App for renting a room",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lori2Lori/flat-app.git"
+  },
+  "author": "Dorota Cieślińska (http://lori2lori.rocks)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lori2Lori/flat-app/issues"
+  },
+  "homepage": "https://github.com/Lori2Lori/flat-app"
+}
