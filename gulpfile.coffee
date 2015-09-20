@@ -57,3 +57,14 @@ gulp.task 'build', gulp.series [
     'assets'
   ]
 ]
+
+gulp.task 'watch', (done) ->
+  gulp.watch [
+    'src/**/*'
+    'assets/**/*'
+  ], gulp.series ['build']
+
+gulp.task 'develop', gulp.series [
+  'build'
+  'watch'
+]
