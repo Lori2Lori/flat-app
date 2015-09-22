@@ -5,7 +5,9 @@ module.exports = (props) =>
     {
       for ad in props.ads
         <li>
-          {ad.title} {ad.address.city} {ad.address.street}
+          <pre>
+            {JSON.stringify ad, null, 2}
+          </pre>
         </li>
     }
   </ul>
