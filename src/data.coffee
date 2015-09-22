@@ -29,7 +29,7 @@ module.exports =
     address     :
       city        : 'Amsterdam'
       street      : 'Panamalaan 8'
-    furnished   : yes
+    furnished   : undefined
     phone       : '500-660-080'
     email       : 'flat@easy.com'
     title       : 'Some flat to rent'
@@ -47,7 +47,7 @@ module.exports =
       address     :
         city        : 'Amsterdam'
         street      : 'Panamalaan 3'
-      furnished   : yes
+      furnished   : no
       phone       : '580-046-060'
       email       : 'boat@easy.com'
       title       : 'Just boat'
