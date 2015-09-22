@@ -7,9 +7,9 @@ module.exports = (props) =>
     </div>
     <ul>
       {
-        for ad in props.ads
+        for ad, i in props.ads
           if ad.furnished is props.filter.furnished
-            <li>
+            <li key={i}>
               <pre>
                 {JSON.stringify ad, null, 2}
               </pre>
